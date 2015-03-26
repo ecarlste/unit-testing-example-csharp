@@ -70,5 +70,11 @@ namespace ALM.MathLibraryTests
 
             Assert.AreEqual(expected, actual, "The expected value did not match the actual value");
         }
+
+        [TestMethod]
+        public void SubtractTest()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
