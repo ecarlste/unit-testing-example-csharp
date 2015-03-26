@@ -2,6 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ALM.MathLibrary;
 
 namespace ALM.MathLibraryTests
 {
@@ -61,9 +62,13 @@ namespace ALM.MathLibraryTests
         [TestMethod]
         public void AddTest()
         {
-            //
-            // TODO: Add test logic here
-            //
+            var system = new BasicMathLibrary();
+
+            int expected = 42;
+
+            int actual = system.Add(42, 2);
+
+            Assert.AreEqual(expected, actual, "The expected value did not match the actual value");
         }
     }
 }
