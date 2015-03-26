@@ -10,7 +10,7 @@ namespace ALM.MathLibrary
     {
         public int Add(int p1, int p2)
         {
-            throw new NotImplementedException();
+            return (p1 + p2);
         }
     }
 }

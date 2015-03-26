@@ -66,7 +66,7 @@ namespace ALM.MathLibraryTests
 
             int expected = 42;
 
-            int actual = system.Add(42, 2);
+            int actual = system.Add(40, 2);
 
             Assert.AreEqual(expected, actual, "The expected value did not match the actual value");
         }
